@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1009322304630572}
+  m_IsPrefabParent: 1
+--- !u!1 &1009322304630572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4841705149180270}
+  - component: {fileID: 114820614288911174}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4841705149180270
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009322304630572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.1684856, y: -2.4680045, z: 0.01953125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114820614288911174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009322304630572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2348510e7f3bb2545bb208ccf8d05a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  bluegirl: {fileID: 1264863830127806, guid: 8cac8876847847047b29d8e56f8169dd, type: 2}
+  greengirl: {fileID: 1931692890148392, guid: 16ea0ced40b321347b9e3ae1b35a3e08, type: 2}
+  pinkgirl: {fileID: 1927721330000220, guid: db7f2a00b95afe74ea29aaa2593ee0dd, type: 2}
+  suitman: {fileID: 1398546196561742, guid: 0410295296676544abcf818bffec93a2, type: 2}
+  swanman: {fileID: 1961446047509468, guid: dd1040e0aca14d64f9798d451daef0ba, type: 2}
+  bluegirlL: {fileID: 1139365361561586, guid: d508c0c67b572b948966e7d812fdc572, type: 2}
+  greengirlL: {fileID: 1001997736100936, guid: 661fe2b80f439434f8885deb39dc5634, type: 2}
+  pinkgirlL: {fileID: 1095279526179974, guid: 33ff58a9f904b2a4da4581079d8ea965, type: 2}
+  suitmanL: {fileID: 1616505788817708, guid: 555c5fc8b1edc61488c8a4bf161c2efc, type: 2}
+  swanmanL: {fileID: 1069349578888144, guid: e7be853b5f45969489841caf97106528, type: 2}
+  enterRoomButton: {fileID: 0}
+  username: BENJAMIN
